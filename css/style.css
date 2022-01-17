@@ -9,6 +9,10 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body{
     overflow-y: hidden;
 }
 header{
@@ -117,13 +121,7 @@ header{
 .menu .line-3{
     width: 10px;
 }
-.cross{
-    margin-left: 15px;
-    margin-top: 22px;
-    font-size: 50px;
-    font-weight: 900;
-    transform: rotate(44.5deg);
-}
+
 
 /* Hamburger menu css ends */
 @media(max-width:768px){
