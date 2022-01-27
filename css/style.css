@@ -26,13 +26,7 @@ header{
     justify-content: space-between;
     
 }
-.center-name{
-        flex-basis: 15%;
-        margin: auto;
-}
-.center-me-text{
-    text-align: center;
-}
+
 .nav-logo{    
     flex-basis:20%;
     display: flex;
@@ -145,7 +139,7 @@ header{
     background-color: black;
     opacity: 0.3;
     transition: 1s;
-    display: flex;
+    display: none;
 }
 }
 
