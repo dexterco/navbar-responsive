@@ -9,9 +9,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-
 body{
     overflow-y: hidden;
 }
@@ -28,9 +26,15 @@ header{
     justify-content: space-between;
     
 }
-.nav-logo{
-    border: 1px solid black;
-    flex-basis: 35%;
+.center-name{
+        flex-basis: 15%;
+        margin: auto;
+}
+.center-me-text{
+    text-align: center;
+}
+.nav-logo{    
+    flex-basis:20%;
     display: flex;
     align-items: center;
 }
@@ -39,8 +43,7 @@ header{
     flex: 1;
 }
 .nav-links{
-    border: 1px solid black;
-    flex-basis: 65%;
+    flex-basis: 55%;
     display: flex;
     align-items: center;
 }
@@ -78,12 +81,13 @@ header{
     .nav-links .menu{
         display: block;
     }
-    
+
+
 }
 
 /* Hamburger menu css starts */
 .menu{
-    /* border: 1px solid rgb(255, 255, 255); */
+     /*border: 1px solid rgb(255, 255, 255); */
     margin-right: 10px;
     padding-top: 5px;
     width: 55px;
@@ -121,6 +125,14 @@ header{
 .menu .line-3{
     width: 10px;
 }
+.cross{
+    
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(44.5deg);
+}
 
 
 /* Hamburger menu css ends */
@@ -131,9 +143,15 @@ header{
     left: -780px;
     height: 100vh;
     background-color: black;
+    opacity: 0.3;
     transition: 1s;
     display: flex;
 }
+}
+
+.responsive-menu{
+
+    display: none;
 }
 
 .responsive-nav-links ul li a{ 
@@ -162,6 +180,13 @@ header{
     padding-top: 20px;
     margin:auto;
 }
+
+/*///////////////////////////////////////////////////////////*/
+/*Imge Container*/
+.image-container{
+    display: flex;
+}
+
 
 
 
